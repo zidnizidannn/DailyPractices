@@ -1,2 +1,2 @@
 # DailyPractices
-Project untuk latihan PM1 git scm
+Project untuk latihan PM1 Git SCM
