@@ -3,6 +3,7 @@ package com.cermat.myapplication
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -24,7 +25,13 @@ class MainActivity : AppCompatActivity() {
             4 -> R.drawable.dice_4
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
+
+
         }
+        val textView: TextView = findViewById(R.id.textView)
+        val nama = "Zidni Zidan Mahestra Setyawan"
+        val nim = "223307087"
+        textView.text = "Nama: $nama\nNIM: $nim"
 
         diceImage.setImageResource(drawableResource)
         diceImage.contentDescription = diceRoll.toString()

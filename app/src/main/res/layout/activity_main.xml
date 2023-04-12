@@ -31,4 +31,17 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/dice_1" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="138dp"
+        tools:text="Nama: Zidni Zidan Mahestra Setyawan\nNIM: 223307087" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
